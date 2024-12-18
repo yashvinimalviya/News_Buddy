@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <title> Register</title>
+ 
+ 
+ <style>
+ body{
+ 
+ background-color: lightgray;
+ background-repeat:no-repeat;
+ background-size:cover;
+ }
+ *{
+ box-sizing: border-box;
+ }
+ 
+ /* add padding to container */
+ .container{
+ padding:22px 20px;
+ width: 60%;
+ height:90%;
+ margin:auto;
+ margin-top:4%;
+ background-color: white;
+ text-align:center;
+ }
+ div{
+ border-radius: 10px;
+ border-color: black;
+ }
+ 
+ /* full width input fields*/
+ 
+ input[type=text],input[type=password]{
+ width: 60%;
+ padding: 8px;
+ margin: 5px 0 22px 0;
+ display: inline-block;
+ border: none;
+ background: #f1f1f1;
+ }
+ 
+ .registerbtn{
+ background-color: #04AA6D;
+ color:white;
+ padding: 8px 20px;
+ margin:8px 0;
+ border:none;
+ cursor:pointer;
+ width:100%;
+ opacity:0.9;
+ }
+ .registerbtn:hover{
+ opacity:1;
+ }
+ 
+ </style>
+ </head>
+ <body>
+ 
+ 
+ <!-- <div class="container"> -->
+ 
+ 
+ <div class="container">
+ <h4><b><center>NEW REGISTER</center></b></h4>
+ <hr>
+ <form action="loginn.html">
+ <label for="userid"><b>Id</b></label> 
+ <input type="text" placeholder="Enter Userid" name="userid" 
+id="userid" required/>
+ <br>
+ <label for="password"><b>Password</b></label>
+ <input type="password" placeholder="Enter password" 
+name="password" id="password" required/>
+ <br>
+ <label for="username"><b>Name</b></label> 
+ <input type="text" placeholder="Enter UserName" name="username" 
+id="username" required/>
+ <br>
+ <label for="address"><b>Address</b></label> 
+ <input type="text" placeholder="Enter address" name="address" 
+id="address" required/>
+ <br>
+ <label for="mobile"><b>Mobile Number</b></label> 
+ <input type="text" placeholder="Enter Mobile_No" name="mobile" 
+id="mobile" required/>
+ <br>
+ <label for="email"><b>Email</b></label> 
+ <input type="text" placeholder="Enter email" name="email" 
+id="email" required/>
+ <hr>
+ <button type="submit" class="registerbtn">Register</button>
+ </div>
+ <p><center>Already have an account? <a 
+href="loginn.html">Login</a></center></p><!-- comment -->
+ 
+ </form>
+ 
+ 
+ </body>
+</html>
